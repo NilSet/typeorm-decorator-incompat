@@ -1,6 +1,6 @@
 import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
 
-@Entity({name: "users", database: 'database.sqlite'})
+@Entity({name: "users"})
 export class User {
 
     @PrimaryGeneratedColumn({type: 'int'})
