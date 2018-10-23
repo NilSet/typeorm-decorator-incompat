@@ -1,0 +1,5 @@
+{
+  "presets": [["@babel/env", {"targets": {"node": "current"}, "useBuiltIns": "usage"}],
+    "@babel/flow"],
+  "plugins": [["@babel/proposal-decorators", {"decoratorsBeforeExport": true}]]
+}

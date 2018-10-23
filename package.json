@@ -1,0 +1,24 @@
+{
+   "name": "typeormtest",
+   "version": "1.0.0",
+   "main": "src/index.js",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "@babel/polyfill": "^7.0.0",
+      "core-js": "2",
+      "sqlite3": "^3.1.10",
+      "typeorm": "0.2.8"
+   },
+   "devDependencies": {
+      "@babel/cli": "^7.1.2",
+      "@babel/core": "^7.1.2",
+      "@babel/plugin-proposal-decorators": "^7.1.2",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-flow": "^7.0.0",
+      "@babel/register": "^7.0.0"
+   },
+   "scripts": {
+      "start": "node -r '@babel/register' src/index.js"
+   }
+}
